@@ -1,4 +1,6 @@
-
+*****************************************************************
+Here, we provide example Stata code to calculate the simulation estimates and intervals for the three-way interaction term between loneliness duration, years of follow-up, and gender, with sensitivity values following a trapezoidal distribution between 0.25 and 0.30 among men and 0.35-0.40 among women, and specificity values were constantly hold at 0.92-1.00 for both genders with a trapezoidal uniform distribution.
+*****************************************************************
 
 ******************************************
 ****Step 1*********************************
