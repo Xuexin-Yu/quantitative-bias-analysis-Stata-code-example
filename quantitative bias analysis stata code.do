@@ -8,7 +8,6 @@ Here, we provide example Stata code to calculate the simulation estimates and in
 *****Trapezoidal distribution, N=10000****
 *******************************************
 
-**# Bookmark #6
 gen rownumber=_n
 	   
 ****1.1 sensitivity value for men**********	   
@@ -59,7 +58,7 @@ replace  sp_f = MIN+sqrt((DL-MIN)*(2*X-MIN-DL)) if X<DL & rownumber<10001
 replace sp_f= MAX-sqrt((MAX+DU-2*X)*(MAX-DU)) if X>DU & rownumber<10001
 drop MIN MAX DL DU X 
 
-npvppv
+
 *******************************************
 ****Step 2*********************************
 ****PPV & NPV generation*******************
@@ -389,8 +388,7 @@ npvppv
 ****Record-level correction****************
 ****Repeat modeling analyses, N=10000******
 *******************************************
-**# Bookmark #4
-use "/home/xuexiny/aim2qba/1_1.dta"
+
 program define correction
 sort PPV_md1
 
