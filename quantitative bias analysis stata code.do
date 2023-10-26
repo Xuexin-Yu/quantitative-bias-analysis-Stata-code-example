@@ -494,7 +494,7 @@ drop lone37new rflonenew
 
 }
 
-*Using standard error estimates from conventional analysis to calculate simulation interval incoporting randome error
+*Using standard error estimates from conventional analysis to calculate simulation interval incoporting random error
 replace threeway= threeway-(.0024931 * rnormal(0,1))
 
 replace threeway1=threeway1-(.0063986 * rnormal(0,1))
